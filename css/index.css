@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'open sans';
+    font-weight: 300;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main-menu {
+    background:#058a2f;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.cont-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+
+.element {
+
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+} 
+
+.element li{
+
+    font-size: 25px;
+    font-style: normal;
+    position: relative;
+    color: #ffffff;
+    height: 62px;
+    padding: 0;
+    margin: 0 .8rem;
+    align-items: center;
+    display: flex;
+    letter-spacing: 0.48px;
+}
+
+.cont-header img{
+    align-items: center;
+    width: auto;
+    height: 100px;
+}
+
+/* Estilo del Carrusel */
+

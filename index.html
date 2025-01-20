@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Express</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index1.html"><img src="/img/header.jpg" alt="" width="100"></a>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Nuestros Servicios</a></li>
+                <li><a href="#">Cobertura</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="carrusel">
+        <div class="carrusel-img">
+            <img src="/img/carrusel1.jpg" alt="Imagen 1" class="active">
+            <img src="/img/carrusel2.jpg" alt="Imagen 2">
+            <img src="/img/carrusel3.jpg" alt="Imagen 3">
+        </div>
+
+        <button class="carrusel-btn prev" onclick="prevSlide()">&#10094;</button>
+        <button class="carrusel-btn next" onclick="nextSlide()">&#10095;</button>                 
+
+        <div class="carrusel-indicators">
+            <span class="indicator active" onclick="goToSlide(0)"></span>
+            <span class="indicator" onclick="goToSlide(1)"></span>
+            <span class="indicator" onclick="goToSlide(2)"></span>
+        </div>
+    </div>
+    
+
+    <div class="ultima-milla-section" id="nosotros">
+        <h2>Somos expertos en última Milla</h2>
+        <p>La última milla es el proceso final en la entrega
+            de un pedido a un cliente y es la última etapa de
+            todas en la cadena de distribución, por lo tanto,
+            es una de las más importantes, ya que los clientes
+            necesitan recibir sus pedidos en el momento
+            oportuno y en el lugar solicitado.</p>
+        <!-- <img src="/img/logo.jpg" alt="" width="400px"> -->
+         <img src="/img/logo-fondo-verde.png" alt="" width="400px">
+    </div>
+
+    <div class="services-section" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-container">
+            <div class="service">
+                <div class="icon" style="background-color: #FFD700;">
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/almacenamiento.png" alt="Almacenamiento"></div>
+                </div>
+                <h3>Almacenamiento de mercancías</h3>
+            </div>
+            <div class="service">
+                <div class="icon" style="background-color: #FFA500;">
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/alistamiento.png" alt="Alistamiento"></div>
+                </div>
+                <h3>Alistamiento de pedidos</h3>
+            </div>
+            <div class="service">
+                <div class="icon" style="background-color: #FF4500;">
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/certificada.png" alt="Entregas"></div>
+                </div>
+                <h3>Entregas certificadas en cadena de frío</h3>
+            </div>
+            <div class="service">
+                <div class="icon" style="background-color: #800080;">
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Transporte.png" alt="Transporte"></div>
+                </div>
+                <h3>Transporte de carga masiva</h3>
+            </div>
+            <div class="service">
+                <div class="icon" style="background-color: #4682B4;">
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Nube.png" alt="Archivos"></div>
+                </div>
+                <h3>Archivos de cumplidos en la nube</h3>
+            </div>
+            <div class="service">
+                <div class="icon" style="background-color: #008000;">
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Distribucion.png" alt="Distribución"></div>
+                </div>
+                <h3>Distribución E-commerce de última milla</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="cobertura-section" id="cobertura">
+        <h2>Cobertura</h2>
+        <img src="/img/cobertura.png"  width="800">
+    </div>
+
+    <div class="novedades-section">
+
+        <h2>Descubre una nueva forma
+            de <br> vivir tus envios</h2>
+
+        <p>¡Por qué recibir el mismo día <br>
+            que lo necesitas, es lo mejor<br>
+            que te puede pasar!</p>
+        
+        <div class="contenedor">
+
+
+            <div class="item">
+                <div class="imag" style="background-color: #00e92f;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/entregas.png" width="80px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>3 horas o menos</h3>
+                    <p>Recojemos y entregamos tu pedido en 3 horas o menos en
+                        perimetro urbano de Bogota, Cali, Medellin, un colaborador
+                        nuestro se encarga de entregarlo en la mano de tu cliente.</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <div class="imag" style="background-color: #00e92f;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/AM.png" width="100px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>AM - PM</h3>
+                    <p>
+                        Los pedidos que recojemos en tus instalaciones antes de las
+                        11 am los entregamos entre las 12 m. y 7 p.m. <br> 
+                        Los pedidos que recojamos en tus instalaciones entre las
+                        3 p.m. y 5 p.m. los estamos entregando el siguiente dia habil.
+                    </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imag" style="background-color: #00e92f;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/same-day.png" width="100px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>Same Day Delivery</h3>
+                    <p>Nada hace más feliz a tus clientes,
+                        que recibir sus compras el mismo día.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imag" style="background-color: #00e92f;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/cobramos.png" width="100px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>Cobramos tus entregas</h3>
+                    <p>Si tu cliente necesita ver para comprar,
+                        te tenemos la solucion, realizamos el cobro
+                        por ti y te lo consignamos a la cuenta que
+                        nos indiques, en menos de 48 horas</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imag" style="background-color: #00e92f;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/control.png" width="100px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>Tú tienes el control</h3>
+                    <p>Sigue tus envios hasta que lleguen
+                        a la puerta de tus clientes.</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="nuestros-activos-section">
+
+        <h2>Nuestro Activos Claves</h2>
+
+        <div class="contenedor-activos">
+
+            <div class="item">
+                <div class="imag" style="background-color: #ff5e00;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/cargobikes.jpeg" width="280px" alt="Distribución">
+                    </div>
+                </div>
+
+                <div class="texto">
+                    <h3>CargoBike´s</h3>
+                    <p>Activos mecánicos y
+                        eléctricos, ecológicos
+                        y sostenibles que
+                        facilitan la movilidad en
+                        zonas de dificil acceso.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imag" style="background-color: #ff5e00;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/motocarguero.jpeg" width="180px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>MiniFurgones</h3>
+                    <p>Un enfoque disruptivo
+                        para la distribución de última milla, vehículos
+                        ligeros, con una excelente capacidad
+                        de carga tanto en peso como en volumen, con
+                        el más bajo consumo de combustible por kilómetro.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imag" style="background-color: #ff5e00;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/nevera-indafre.png" width="120px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>Refrigeradores</h3>
+                    <p>Sistemas portátiles
+                        de refrigeración
+                        (O y 4 grados) para
+                        vincular en furgones
+                        carga seca o carga
+                        congelada.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imag" style="background-color: #ff5e00;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/bot-conversacional.png" width="90px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>Herramientas Tecnologicas</h3>
+                    <p>Tus clientes son
+                        los nuestros, nos
+                        comunicamos con
+                        ellos con el fin de
+                        asegurar la entrega
+                        mediante tecnología
+                        de punta como
+                        "SMS, BOT CHAT.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imag" style="background-color: #ff5e00;">
+                    <div class="blank" style="background-color: #F2F3F4;">
+                        <img src="/img/van.jpg" width="180px" alt="Distribución">
+                    </div> 
+                </div>
+
+                <div class="texto">
+                    <h3>Flota Propia y Tercerizada</h3>
+                    <p>Contamos con una flota de vehiculos 
+                        propios de reparto que nos permiten cumplir
+                        las frecuencias pactadas con nuestros clientes.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-item">
+                <img src="img/ubicacion.png" alt="Ubicación" class="footer-icon">
+                <div class="footer-text">
+                    <p><strong>CALI VALLE DEL CAUCA</strong></p>
+                    <p>Cra. 6 No. 45 - 120</p>
+                    <p>PARQUE EMPRESARIAL PROCASAN</p>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <img src="img/llamada-telefonica.png" alt="Contacto" class="footer-icon">
+                <div class="footer-text">
+                    <p><strong>Contacto:</strong></p>
+                    <p>John Alexander Obando</p>
+                    <p>Gerente General</p>
+                    <p>318 734 5138   <strong>//</strong>   312 548 5938</p>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <img src="img/correo-electronico.png" alt="Correo" class="footer-icon">
+                <div class="footer-text">
+                    <p><strong>Correos:</strong></p>
+                    <p><a href="mailto:logistica@movilweb.net">logistica@movilweb.net</a></p>
+                    <p><a href="mailto:servicio@movilweb.net">servicio@movilweb.net</a></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-copyrights">
+            <div class="footer-copyrights-container">
+                <div class="footer-date">© Derivery Express 2025 </div>
+                    <ul class="footer-copyrights-menu">
+                        <li>Diseñado por Juan Obando</li>
+                    </ul>
+            </div>
+            <div class="foter">
+                <div class="footer-socials">
+                    <ul class="list-unstyled-socials">
+                        <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-fb.svg" alt="Facebook"></a></li>
+                        <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-ins.svg" alt="Instagram"></a></li>
+                        <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-tw2.svg" alt="Twitter"></a></li>
+                        <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-lk.svg" alt="Linkedin"></a></li>
+                    </ul>
+                </div>
+                <a href="https://www.supertransporte.gov.co/" target="_blank" class="nav-link"><img class="superimg" src="/img/ST.png" alt="Vigilado Supertransporte" width="140px"></a>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="js/carrusel.js"></script>
+</body>
+</html>
