@@ -164,7 +164,6 @@ nav li a:hover{
     margin-bottom: 20px;
     padding-top: 30px;
     text-align: center;
-
 }
 
 .ultima-milla-section {
@@ -191,12 +190,19 @@ nav li a:hover{
     border-radius: 15px;
 }
 
-.ultima-milla-section h2 {
+.ultima-milla-section h1 {
     font-size: 2.5em;
     color: #24AAE1;
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
+}
 
+.ultima-milla-section h2 {
+    font-size: 1.8em;
+    color: #1b83ab;
+    padding-top: 10px;
+    text-align: right;
 }
 
 .ultima-milla-section p {
@@ -501,6 +507,7 @@ nav li a:hover{
 
 .footer-copyrights-container {
     display: inline-flex;
+    flex-direction: column;
 }
 
 .footer-socials {
@@ -601,9 +608,14 @@ nav li a:hover{
         width: 6px;
         height: 6px;
     }
-    .ultima-milla-section h2{
+    .ultima-milla-section h1{
         padding-top: 10px;
+        padding-bottom: 15px;
         font-size: 25px;
+    }
+
+    .ultima-milla-section h2 {
+        font-size: 19px;
     }
     .ultima-milla-section p {
         padding: 10px 40px;
@@ -630,6 +642,107 @@ nav li a:hover{
         padding-top: 10px;
         margin-bottom: 10px;
     }
+    .novedades-section {
+        padding: 0px;
+    }
+
+    .novedades-section h2 {
+        font-size: 25px;
+        padding-top: 20px;
+        margin: 0px;
+
+    }
+
+    .novedades-section p {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .contenedor .texto h3 {
+        font-size: 20px;
+    } 
+
+    .contenedor .texto {
+        padding-left: 10px;
+    } 
+
+    .contenedor .item {
+        gap: 5px;
+        padding: 15px;
+    }
+
+    .contenedor .texto p{
+        font-size: 14px;
+    }
+
+    .contenedor .blank {
+        width: 80px;
+        height: 80px;
+    }
+    .contenedor .imag {
+        width: 110px;
+        height: auto;
+        padding: 3px;
+    }
+    .blank img{
+        width: 60px;
+    }
+    .nuestros-activos-section {
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .contenedor-activos {
+        margin: 0px;
+    }
+
+    .contenedor-activos .item {
+        padding: 10px;
+    }
+
+    .nuestros-activos-section h2 {
+        font-size: 25px;
+    }
     
+    .contenedor-activos .texto h3 {
+        font-size: 20px;
+    }
+
+    .contenedor-activos .texto p {
+        font-size: 14px;
+    }
+    .contenedor-activos .texto {
+        padding: 0px;
+    }
+    .contenedor-activos .imag {
+        width: 100px;
+        height: 100px;
+    }
+    .contenedor-activos .blank {
+        width: 90px;
+        height: 90px;
+        justify-content: center;
+    }
+    
+    .contenedor-activos .cargo-bike {
+        width: 190%;
+        object-fit: cover;
+        object-position: 10% ;
+    }
+    .contenedor-activos .motocarguero-img {
+        width: 135%;
+        justify-content: center;
+    }
+
+    .contenedor-activos .nevera-indafre {
+        width: 80%;
+    }
+
+    .contenedor-activos .bot-icon {
+        width: 65%;
+    }
+    .contenedor-activos .van-delivery-express {
+        width: 135%;
+    }
     
 }

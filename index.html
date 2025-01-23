@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delivery Express</title>
+    <title>Delivery Express Expertos en Ultima Milla</title>
     <link rel="stylesheet" href="css/Style.css">
     <link rel="icon" href="img/favicon.ico" type="image/ico">
+
+    <meta name="description" content="Especialistas en la última milla, 
+    aseguramos que tus productos lleguen al lugar correcto en el momento preciso. 
+    Con opciones personalizadas de almacenamiento, alistamiento y entrega, 
+    optimizamos cada etapa para superar las expectativas de tus clientes.">
+
+    <meta name="keywords" content="transporte, logística, 
+    empresa de envios cali, distribución E-commerce, 
+    Ultima Milla, Entregas rapidas, Delivery Express, 
+    Almacenamiento de mercancias">
+
+    <meta name="author" content="Delivery Express">
+    
 </head>
 <body>
     <header>
-        <a href="index1.html"><img src="/img/header.jpg" alt="" width="100"></a>
+        <a href="index1.html"><img src="/img/header.jpg" alt="Delivery Express Logo" width="100"></a>
         <nav>
                 <ul>
                     <li><a href="#nosotros">Nosotros</a></li>
@@ -29,8 +42,8 @@
             <img src="/img/carrusel3.jpg" alt="Imagen 3">
         </div>
 
-        <button class="carrusel-btn prev" onclick="prevSlide()">&#10094;</button>
-        <button class="carrusel-btn next" onclick="nextSlide()">&#10095;</button>                 
+        <button class="carrusel-btn prev" onclick="prevSlide()" aria-label="Boton imagen previa">&#10094;</button>
+        <button class="carrusel-btn next" onclick="nextSlide()" aria-label="Boton imagen Posterior">&#10095;</button>                 
 
         <div class="carrusel-indicators">
             <span class="indicator active" onclick="goToSlide(0)"></span>
@@ -41,7 +54,8 @@
     
 
     <div class="ultima-milla-section" id="nosotros">
-        <h2>Somos expertos en última Milla</h2>
+        <h1>Expertos en última milla</h1>
+        <h2>¿Qué es la última milla?</h2>
         <p>La última milla es el proceso final en la entrega
             de un pedido a un cliente y es la última etapa de
             todas en la cadena de distribución, por lo tanto,
@@ -49,7 +63,7 @@
             necesitan recibir sus pedidos en el momento
             oportuno y en el lugar solicitado.</p>
         <!-- <img src="/img/logo.jpg" alt="" width="400px"> -->
-         <img src="/img/logo-fondo-verde.png" alt="" width="400px">
+         <img src="/img/logo-fondo-verde.png" alt="logo-delivery-express-fondo-verde" width="400px">
     </div>
 
     <div class="services-section" id="servicios">
@@ -57,37 +71,37 @@
         <div class="services-container">
             <div class="service">
                 <div class="icon" style="background-color: #FFD700;">
-                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/almacenamiento.png" alt="Almacenamiento"></div>
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/almacenamiento.png" alt="Almacenamiento-icono"></div>
                 </div>
                 <h3>Almacenamiento de mercancías</h3>
             </div>
             <div class="service">
                 <div class="icon" style="background-color: #FFA500;">
-                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/alistamiento.png" alt="Alistamiento"></div>
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/alistamiento.png" alt="Alistamiento-icono"></div>
                 </div>
                 <h3>Alistamiento de pedidos</h3>
             </div>
             <div class="service">
                 <div class="icon" style="background-color: #FF4500;">
-                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/certificada.png" alt="Entregas"></div>
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/certificada.png" alt="Entregas-icono"></div>
                 </div>
                 <h3>Entregas certificadas en cadena de frío</h3>
             </div>
             <div class="service">
                 <div class="icon" style="background-color: #800080;">
-                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Transporte.png" alt="Transporte"></div>
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Transporte.png" alt="Transporte-icono"></div>
                 </div>
                 <h3>Transporte de carga masiva</h3>
             </div>
             <div class="service">
                 <div class="icon" style="background-color: #4682B4;">
-                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Nube.png" alt="Archivos"></div>
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Nube.png" alt="Archivos-icono"></div>
                 </div>
                 <h3>Archivos de cumplidos en la nube</h3>
             </div>
             <div class="service">
                 <div class="icon" style="background-color: #008000;">
-                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Distribucion.png" alt="Distribución"></div>
+                    <div class="blank" style="background-color: #F2F3F4;"><img src="/img/Distribucion.png" alt="Distribución-icono"></div>
                 </div>
                 <h3>Distribución E-commerce de última milla</h3>
             </div>
@@ -96,7 +110,7 @@
 
     <div class="cobertura-section" id="cobertura">
         <h2>Cobertura</h2>
-        <img src="/img/cobertura.png"  width="800">
+        <img src="/img/cobertura.png" width="800" alt="Mapa de cobertura Delivery Express">
     </div>
 
     <div class="novedades-section">
@@ -104,24 +118,23 @@
         <h2>Descubre una nueva forma
             de <br> vivir tus envios</h2>
 
-        <p>¡Por qué recibir el mismo día <br>
+        <p>¡Porque recibir el mismo día <br>
             que lo necesitas, es lo mejor<br>
             que te puede pasar!</p>
         
         <div class="contenedor">
 
-
             <div class="item">
                 <div class="imag" style="background-color: #00e92f;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/entregas.png" width="80px" alt="Distribución">
+                        <img src="/img/entregas.png" width="80px" alt="Distribución-icono">
                     </div> 
                 </div>
 
                 <div class="texto">
                     <h3>3 horas o menos</h3>
                     <p>Recojemos y entregamos tu pedido en 3 horas o menos en
-                        perimetro urbano de Bogota, Cali, Medellin, un colaborador
+                        perímetro urbano de Bogotá, Cali, Medellín, un colaborador
                         nuestro se encarga de entregarlo en la mano de tu cliente.</p>
                 </div>
             </div>
@@ -129,7 +142,7 @@
             <div class="item">
                 <div class="imag" style="background-color: #00e92f;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/AM.png" width="100px" alt="Distribución">
+                        <img src="/img/AM.png" width="100px" alt="relog-icono">
                     </div> 
                 </div>
 
@@ -137,9 +150,9 @@
                     <h3>AM - PM</h3>
                     <p>
                         Los pedidos que recojemos en tus instalaciones antes de las
-                        11 am los entregamos entre las 12 m. y 7 p.m. <br> 
+                        11 a.m. los entregamos entre las 12 m. y 7 p.m. <br> 
                         Los pedidos que recojamos en tus instalaciones entre las
-                        3 p.m. y 5 p.m. los estamos entregando el siguiente dia habil.
+                        3 p.m. y 5 p.m. los estamos entregando el siguiente día hábil.
                     </p>
                 </div>
             </div>
@@ -147,7 +160,7 @@
             <div class="item">
                 <div class="imag" style="background-color: #00e92f;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/same-day.png" width="100px" alt="Distribución">
+                        <img src="/img/same-day.png" width="100px" alt="calendario-icono">
                     </div> 
                 </div>
 
@@ -161,14 +174,14 @@
             <div class="item">
                 <div class="imag" style="background-color: #00e92f;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/cobramos.png" width="100px" alt="Distribución">
+                        <img src="/img/cobramos.png" width="100px" alt="cobro-icono">
                     </div> 
                 </div>
 
                 <div class="texto">
                     <h3>Cobramos tus entregas</h3>
                     <p>Si tu cliente necesita ver para comprar,
-                        te tenemos la solucion, realizamos el cobro
+                        te tenemos la solución, realizamos el cobro
                         por ti y te lo consignamos a la cuenta que
                         nos indiques, en menos de 48 horas</p>
                 </div>
@@ -177,13 +190,13 @@
             <div class="item">
                 <div class="imag" style="background-color: #00e92f;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/control.png" width="100px" alt="Distribución">
+                        <img src="/img/control.png" width="100px" alt="mapa-icono">
                     </div> 
                 </div>
 
                 <div class="texto">
                     <h3>Tú tienes el control</h3>
-                    <p>Sigue tus envios hasta que lleguen
+                    <p>Sigue tus envíos hasta que lleguen
                         a la puerta de tus clientes.</p>
                 </div>
             </div>
@@ -201,7 +214,7 @@
             <div class="item">
                 <div class="imag" style="background-color: #ff5e00;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/cargobikes.jpeg" width="280px" alt="Distribución">
+                        <img src="/img/cargobikes.jpeg" width="280px" alt="cargo-bike" class="cargo-bike">
                     </div>
                 </div>
 
@@ -211,14 +224,14 @@
                         eléctricos, ecológicos
                         y sostenibles que
                         facilitan la movilidad en
-                        zonas de dificil acceso.</p>
+                        zonas de difícil acceso.</p>
                 </div>
             </div>
 
             <div class="item">
                 <div class="imag" style="background-color: #ff5e00;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/motocarguero.jpeg" width="180px" alt="Distribución">
+                        <img src="/img/motocarguero.jpeg" width="180px" alt="motocarguero" class="motocarguero-img">
                     </div> 
                 </div>
 
@@ -235,7 +248,7 @@
             <div class="item">
                 <div class="imag" style="background-color: #ff5e00;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/nevera-indafre.png" width="120px" alt="Distribución">
+                        <img src="/img/nevera-indafre.png" width="120px" alt="nevera-indafre" class="nevera-indafre">
                     </div> 
                 </div>
 
@@ -243,7 +256,7 @@
                     <h3>Refrigeradores</h3>
                     <p>Sistemas portátiles
                         de refrigeración
-                        (O y 4 grados) para
+                        (0° y 4°) para
                         vincular en furgones
                         carga seca o carga
                         congelada.</p>
@@ -253,12 +266,12 @@
             <div class="item">
                 <div class="imag" style="background-color: #ff5e00;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/bot-conversacional.png" width="90px" alt="Distribución">
+                        <img src="/img/bot-conversacional.png" width="90px" alt="bot-icon" class="bot-icon">
                     </div> 
                 </div>
 
                 <div class="texto">
-                    <h3>Herramientas Tecnologicas</h3>
+                    <h3>Herramientas Tecnológicas</h3>
                     <p>Tus clientes son
                         los nuestros, nos
                         comunicamos con
@@ -273,13 +286,13 @@
             <div class="item">
                 <div class="imag" style="background-color: #ff5e00;">
                     <div class="blank" style="background-color: #F2F3F4;">
-                        <img src="/img/van.jpg" width="180px" alt="Distribución">
+                        <img src="/img/van.jpg" width="180px" alt="van-delivery-express" class="van-delivery-express">
                     </div> 
                 </div>
 
                 <div class="texto">
                     <h3>Flota Propia y Tercerizada</h3>
-                    <p>Contamos con una flota de vehiculos 
+                    <p>Contamos con una flota de vehículos 
                         propios de reparto que nos permiten cumplir
                         las frecuencias pactadas con nuestros clientes.
                     </p>
@@ -299,7 +312,7 @@
                 <div class="footer-text">
                     <p><strong>CALI VALLE DEL CAUCA</strong></p>
                     <p>Cra. 6 No. 45 - 120</p>
-                    <p>PARQUE EMPRESARIAL PROCASAN</p>
+                    <p>Parque empresarial Procasan</p>
                 </div>
             </div>
 
@@ -317,34 +330,34 @@
                 <img src="img/correo-electronico.png" alt="Correo" class="footer-icon">
                 <div class="footer-text">
                     <p><strong>Correos:</strong></p>
-                    <p><a href="mailto:logistica@movilweb.net">logistica@movilweb.net</a></p>
-                    <p><a href="mailto:servicio@movilweb.net">servicio@movilweb.net</a></p>
+                    <p><a href="mailto:comercial@deliveryexpress.com.co">comercial@deliveryexpress.com.co</a></p>
+                    <p><a href="mailto:servicio@deliveryexpress.com.co">servicio@deliveryexpress.com.co</a></p>
                 </div>
             </div>
 
         </div>
 
         <div class="footer-copyrights">
+
             <div class="footer-copyrights-container">
                 <div class="footer-date">© Derivery Express 2025 </div>
                     <ul class="footer-copyrights-menu">
-                        <li>Diseñado por Juan Obando</li>
+                        <li>Diseñado por Juan Sebastian Obando</li>
                     </ul>
             </div>
+
             <div class="foter">
                 <div class="footer-socials">
                     <ul class="list-unstyled-socials">
                         <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-fb.svg" alt="Facebook"></a></li>
-                        <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-ins.svg" alt="Instagram"></a></li>
-                        <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-tw2.svg" alt="Twitter"></a></li>
-                        <li><a href="#" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-lk.svg" alt="Linkedin"></a></li>
+                        <li><a href="https://www.instagram.com/delivery_express955?igsh=aGttanJ6bHhnZXc3" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-ins.svg" alt="Instagram"></a></li>
+                        <li><a href="" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-tw2.svg" alt="Twitter"></a></li>
+                        <li><a href="https://www.linkedin.com/in/delivery-express-272a205a/?originalSubdomain=co" target="_blank" class="nav-link"><img src="https://www.servientrega.com/wps/contenthandler/dav/fs-type1/themes/New-Theme-Servientrega/images/svg/ico-lk.svg" alt="Linkedin"></a></li>
                     </ul>
                 </div>
                 <a href="https://www.supertransporte.gov.co/" target="_blank" class="nav-link"><img class="superimg" src="/img/ST.png" alt="Vigilado Supertransporte" width="140px"></a>
             </div>
         </div>
-
-
     </footer>
 
     <script src="js/carrusel.js"></script>
